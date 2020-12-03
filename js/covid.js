@@ -11,10 +11,7 @@ function formatSearchResults(jsonResults) {
  
   //var siteCount = 0;
 
-  
-   
-
-    $("#search-results-heading").text("Search Results");
+  $("#search-results-heading").text("Search Results");
     var formatedText = "";
 
     jsonObject.Countries.forEach(
